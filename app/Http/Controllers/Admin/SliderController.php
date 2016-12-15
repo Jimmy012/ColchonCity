@@ -102,9 +102,9 @@ class SliderController extends Controller
         $name = 'imagen_' . time() . '_' . ($request->get('image'));
         $path =  public_path() . '/tienda/slider/';
         $file->move($path, $name);
-        dd($request->all());
+        //dd($request->all());
         $slider = Slider($slider);
-        dd($slider);
+        //dd($slider);
         $slider->fill($request->all());
         $slider->slug = str_slug($request->get('name'));
         $slider->imagen = $name;

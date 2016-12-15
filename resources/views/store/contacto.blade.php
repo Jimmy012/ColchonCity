@@ -76,7 +76,7 @@
                             
                             {!! 
                                 Form::textarea(
-                                    'mensaje', 
+                                    'mensaje',
                                     null, 
                                     array(
                                         'class'=>'form-control'
@@ -94,7 +94,6 @@
 
         </div>        </div>
         <!-- /.row -->
-
         <hr>
 
         <script src="js/jquery.js"></script>

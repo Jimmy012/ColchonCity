@@ -22,7 +22,7 @@
         <!-- /.row -->
          <div class="row">
             <div class="col-lg-12">
-                <img class="img-responsive" src="img/paypal.png" alt="">
+                <img class="img-responsive" src="img/pago.png" alt="">
             </div>
         </div>
         <br></br>
@@ -33,45 +33,52 @@
                 <h2 class="page-header">Formas De Pago</h2>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive" src="img/historia.jpg" alt="">
+                <img class="img-responsive" src="img/paypal4.jpg" alt="">
             </div>
             <div class="col-md-6">
-                <h2>Historia</h2>
-                <p align="justify">Con la experiencia de más de 25 años en el ramo textil, componentes y materiales para la Industria del descanso, COLCHON CITY incursiona en las redes con la finalidad de ofrecer directamente al consumidor final sistemas de descanso vanguardistas a precios de fábrica.</p>
+                <h2>Paypal</h2>
+                <p align="justify" line-height="18">Puedes pagar tu compra a través de uno de los sistemas de pago en Internet más cómodo, seguro y usado en el mundo. Una vez que registres tu cuenta, PayPal te permite pagar de las siguientes formas.</p>
                 <dr>
-                <p align="justify">La sinergia y alianzas con diferentes socios comerciales nos permiten ofrecer modelos exclusivos de la más alta tecnología a los mejores precios. </p>
-                <dr>
-                <p align="justify">
-                Nuestros productos los ofrecemos desde pago de contado, depósito bancario y/o transferencia electrónica hasta pagos a meses sin intereses con tarjetas de crédito participantes, además de poder ofrecer a nuestros clientes un sistema de entrega eficaz y seguro.
+                <p align="justify">* Paga con TARJETA DE CREDITO en un solo pago o en meses sin intereses de 3,6,9,12 Y 18 MESES
                 </p>
                 <dr>
-                <p align="justify">También contamos con SHOW ROOMS en el estado de Tabasco con la única y exclusiva zona VIP BY MEMORY FOAM donde podrás encontrar los sistemas de descanso de más alta tecnología a precios de fábrica, todo esto gracias a las alianzas establecidas con productores de este exclusivo material.</p>
+                <p align="justify">* Paga con TARJETA DE DEBITO </p>
+                <dr>
+                <p align="justify">
+                Al finalizar el proceso del pedido ingresa a tu cuenta segura de PayPal y después de revisar los detalles de tu compra, libera el pago.
+                </p>
+                <dr>
             </div>
         </div>
          <hr>
          <br></br>
         <div class="row">
             <div class="col-md-6">
-                <h2>Nuestra Misión</h2>
-                <p align="justify">Nuestra misión es atender las necesidades de descanso de nuestros clientes, con colchones que tengan el mejor costo beneficio y calidad utilizando materiales innovadores, vanguardistas y desarrollando en cada uno de nuestros colchones la más alta tecnología.  Proporcionando a nuestros clientes el mejor producto que le permita tener “El placer de descansar”</p>
-                <br></br>
-                <p align="justify">Además como empresa proporcionar confianza, credibilidad y rentabilidad creciente a cada uno de nuestros socios comerciales y accionistas; a nuestros empleados motivación y oportunidad de crecimiento aplicando la sinergia, responsabilidad, honestidad y respeto, ya que contamos con el respaldo de una gran historia y un futuro prometedor.</p>
+                <h2>Paypal</h2>
+                <p align="justify">Una vez efectuado el pago se te enviara un recibo de la transacción.</p>
+                </br>
+                <p>El monto de pago quedara retenido por PayPal hasta que recibas tu pedido y les autorices a ellos que lo abonen a nuestra cuenta.</p>
+                <br>
             </div>
             <div class="col-md-6">
-                <img class="img-responsive" src="img/mision.jpg" alt="">
+                <img class="img-responsive" src="img/paypal1.jpg" alt="">
             </div>
         </div>
          <hr>
         <br></br>
         <div class="row">
             <div class="col-md-6">
-                <img class="img-responsive" src="img/vision.jpg" alt="">
+                <img class="img-responsive" src="img/tarjeta.png" alt="">
             </div>
             <div class="col-md-6">
                 <h2>Nuestra Visión</h2>
-                <p align="justify">Nuestra visión es ser siempre una empresa líder y en continuo crecimiento, con presencia nacional, que se distinga por proporcionar un producto innovador, de alta calidad y un excelente servicio a sus clientes.</p>
+                <p align="justify">Puedes pagar con depósito bancario en cualquiera de los siguientes bancos.
+                </p>
                 <br></br>
-                <p align="justify">También contar con la debida rentabilidad sostenida a sus accionistas, y establecer las bases para un amplio desarrollo profesional y personal de sus empleados contribuyendo positivamente a la sociedad.</p>
+                <p align="justify">
+                TRANSFERENCIA ELECTRÓNICA
+
+                Puedes pagar por medio de transferencia electrónica en cualquiera de los bancos que aparecen en el párrafo anterior o por medio de otro banco a través de transferencia interbancaria.</p>
             </div>
         </div>
         <!-- /.row -->

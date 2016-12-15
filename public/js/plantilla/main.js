@@ -14,7 +14,9 @@ $(document).ready(function() {
 		var id = $(this).data('id');
 		var href = $(this).data('href');
 		var quantity = $("#product_" + id).val();
-
+		var precio =$(this).data('#product_')
+		//alert(precio);
+		
 		window.location.href = href + "/" + quantity;
 	});
 

@@ -5,7 +5,7 @@
         <div class="col-md-3 f_grid1">
             <h3>ACERCA DE</h3>
             <a href="#"><img src="img/logo.png" alt=""/></a>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <p>"El Placer de Descansar"</p>
         </div>
         <div class="col-md-3 f_grid1 f_grid2">
             <h3>Redes Sociales</h3>
@@ -19,12 +19,12 @@
         <div class="col-md-6 f_grid3">
             <h3>Contactanos</h3>
             <ul class="list">
-                <li><p>Telefono : 1.800.254.5487</p></li>
-                <li><p>Celular : 1.800.254.2548</p></li>
-                <li><p>Correo : <a href="mailto:info(at)fashionpress.com"> info(at)fashionpress.com</a></p></li>
+                <li><p>Telefono : (993) 3-13-94-05</p></li>
+                <li><p>Celular : (993) 3-52-27-02</p></li>
+                <li><p>Correo : <a href="mailto:colchoncity86@gmail.com"> colchoncity86@gmail.com</a></p></li>
             </ul>
             <ul class="list1">
-                <li><p>Aliquam augue a bibendum ipsum diam, semper porttitor libero elit egestas gravida, ut quam, nunc taciti</p></li>
+                <li><h4>"El Placer de Descansar"</h4></li>
             </ul>
             <div class="clearfix"> </div>
         </div>

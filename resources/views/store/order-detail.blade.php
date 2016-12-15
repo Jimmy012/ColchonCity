@@ -48,11 +48,6 @@
 					<a target="_blank" href="{{ route('payment') }}" class="btn btn-warning">
 						Pagar con <i class="fa fa-cc-paypal fa-2x"></i>
 					</a>
-
-					<a href="#" class="btn btn-warning">
-						Pagar con <i class="#"></i>
-					</a>
-
 				</p>
 			</div>
 		</div>

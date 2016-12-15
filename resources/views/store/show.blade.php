@@ -4,14 +4,14 @@
 
 <div class="column_center">
   <div class="container">
-	<div class="search">
+	<!--<div class="search">
 	  <div class="stay">Buscar Productos</div>
 	  <div class="stay_right">
 		  <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
 		  <input type="submit" value="">
 	  </div>
 	  <div class="clearfix"> </div>
-	</div>
+	</div>-->
     <div class="clearfix"> </div>
   </div>
 </div>

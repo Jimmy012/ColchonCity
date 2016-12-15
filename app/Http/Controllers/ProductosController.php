@@ -25,8 +25,6 @@ class ProductosController extends Controller
     public function show($slug)
     {
     	$product = Product::where('slug', $slug)->first();
-    	
-
     	return view('store.show', compact('product'));
     }
 }

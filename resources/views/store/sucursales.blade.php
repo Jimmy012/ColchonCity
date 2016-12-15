@@ -65,7 +65,7 @@
                     </div>
                     <div class="media-body">
                         <h3>Correo</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                        <p>colchoncity86@gmail.com</p>
                     </div>
                 </div>
             </div>
@@ -125,7 +125,7 @@
                     </div>
                     <div class="media-body">
                         <h3>Correo</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo itaque ipsum sit harum.</p>
+                        <p>colchoncity86@gmail.com</p>
                     </div>
                 </div>
             </div>

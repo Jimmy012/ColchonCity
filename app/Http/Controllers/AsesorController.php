@@ -3,17 +3,23 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Mail;
+use Session;
+use Redirect;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 
 class AsesorController extends Controller
 {
+    public function index()
+    {
+    	return view('store.asesor');
+    }
+
     public function asesor()
     {
-    	//dd($products);
-    	return view('store.asesor');
+        return view('store.asesor');
     }
 
     /**
@@ -34,15 +40,16 @@ class AsesorController extends Controller
      */
     public function store(Request $request)
     {
-        Mail::send('emails.contact',$request->all(), function($msj){
-            $msj->subject('Correo de contacto');
-            $msj->to('Jummyfrias@gmail.com');
-        });
-
-        Session::flash('message','Mensaje enviado correctamente');
-        return Redirect::to('/contacto');
-
-
+        $pregunta1 = ($request->get("pregunta1"));
+        $pregunta2 = ($request->get("pregunta2"));
+        $pregunta3 = ($request->get("pregunta3"));
+        $pregunta4 = ($request->get("pregunta4"));
+        $pregunta5 = ($request->get("pregunta5"));
+        $pregunta6 = ($request->get("pregunta6"));
+        $pregunta7 = ($request->get("pregunta7"));
+       
+        return view('store.asesordetalle',compact('pregunta1','pregunta2','pregunta3','pregunta4',
+            'pregunta5','pregunta6','pregunta7'));
     }
 
     /**

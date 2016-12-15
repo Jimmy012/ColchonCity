@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>@yield('title', 'ColchonCyty')</title>
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	<link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}" />
 	<link href="{{ asset('css/bootstrap.css') }}" rel='stylesheet' type='text/css' />
 	<link type='text/css' rel='stylesheet' href="{{ asset('css/font-awesome.min.css') }}"/>
 	<link type='text/css' rel='stylesheet' href="{{ asset('css/font-awesome.css') }}"/>

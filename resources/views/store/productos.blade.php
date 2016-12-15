@@ -5,14 +5,14 @@
 <body>
 <div class="column_center">
   <div class="container">
-    <div class="search">
+    <!--<div class="search">
       <div class="stay">Buscar Producto</div>
       <div class="stay_right">
           <input type="text" value="" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}">
           <input type="submit" value="">
       </div>
       <div class="clearfix"> </div>
-    </div>
+    </div>-->
     <div class="clearfix"> </div>
   </div>
 </div>
@@ -34,7 +34,7 @@
               <br>
                 <p>Desde: ${{ number_format($product->precioMatri,2 )}}</p>
                 <ul class="grid_2-bottom">
-                    <li class="grid_2-left"><h4>{{ $product->name }}</h4></li>
+                    <li class="grid_2-left"><h5>{{ $product->name }}</h5></li>
                     <li href="{{ route('cart-add', $product->slug) }}" class="grid_2-right">
                       <a href="{{ route('cart-add', $product->slug) }}" title="Online Reservation" class="btn btn-primary btn-normal btn-inline " target="_self">Añadir
                       </a>

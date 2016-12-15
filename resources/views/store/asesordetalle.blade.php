@@ -14,7 +14,7 @@
 
         <div class="row">
             <div class="col-xs-12">
-                <h2 class="form-login-heading">ASESOR<span>DEL DESCANSO</span></h2>
+                <h2 class="form-login-heading"><span>ASESOR DEL DESCANSO</span></h2>
             </div>
 
         </div><!--/ .row-->
@@ -33,57 +33,91 @@
             </div>
 
     </div><!--/ .row-->
+    <div class="row">
+            <div class="col-md-8">
+              <h3>Mandanos un mensaje</h3>
+              <label>Favor de proporcionar los siguientes datos para darle la mejor recomendación del producto:</label>
+                                    <br><br>
+              {!! Form::open(['route'=>'mail.store', 'method'=>'POST']) !!}
+                <form name="sentMessage" id="contactForm" novalidate>
 
-        <form id="SignupForm" action="" method="get">
-            <div class="form-wizard">
-                            
-                            <div class="row">
-
-                                <div class="col-md-8 col-sm-7">
-
-                                    <div class="data-container">
-                                        <dl>
-                                            <dt>Edad</dt>
-                                            <dd>John_503in</dd>
-                                        </dl>
-                                        <dl>
-                                            <dt>Acompañado o sólo</dt>
-                                            <dd>john_doe@gmail.com</dd>
-                                        </dl>
-                                        <dl>
-                                            <dt>Presento algún dolor en columna</dt>
-                                            <dd>John Doe</dd>
-                                        </dl>
-                                        <dl>
-                                            <dt>Mi peso es de</dt>
-                                            <dd>Male</dd>
-                                        </dl>
-                                        <dl>
-                                            <dt>Me gusta dormir en un colchón..</dt>
-                                            <dd>325-555-1234</dd>
-                                        </dl>
-                                        <dl>
-                                            <dt>Que tecnología busco en mi colchón</dt>
-                                            <dd>111 W.App Ave. Suite 123, Sunway, CA</dd>
-                                        </dl>
-                                        <dl>
-                                            <dt>Tengo un presupuesto de. </dt>
-                                            <dd>94086</dd>
-                                        </dl>
-                                    </div><!--/ .data-container-->
-
-                                </div>
-
-                            </div><!--/ .row-->
-                            
-                        </div><!--/ .form-wizard-->
+                    <div class="form-group">
+                           <img src="img/contact.png"><label for="name">Nombre:</label>
+                           
+                            {!! 
+                                Form::text(
+                                    'name', 
+                                    null, 
+                                    array(
+                                        'class'=>'form-control',
+                                        'placeholder' => 'Ingresa tu nombre...',
+                                        'autofocus' => 'autofocus'
+                                    )
+                                ) 
+                            !!}
+                        </div>
                         
-                        <div class="next">
-                            <button class="button button-control" type="button"><span>Submit <b>Your Information</b></span></button>
-                            <div class="button-divider"></div>
+                        <div class="form-group">
+                            <img src="img/tel.png"<label for="phone">Teléfono:</label>
+                            
+                            {!! 
+                                Form::text(
+                                    'phone', 
+                                    null, 
+                                    array(
+                                        'class'=>'form-control',
+                                        'placeholder' => 'Ingresa tu teléfono...',
+                                    )
+                                ) 
+                            !!}
                         </div>
 
-        </form>
+                        <div class="form-group">
+                            <img src="img/mail.png"<label for="email">Email:</label>
+                            
+                            {!! 
+                                Form::text(
+                                    'email', 
+                                    null, 
+                                    array(
+                                        'class'=>'form-control',
+                                        'placeholder' => 'Ingresa tu Email...',
+                                    )
+                                ) 
+                            !!}
+                        </div>
+                        <div class="form-group">
+                            <img src="img/usuario.png"<label for="mensaje">Mi Perfil:</label>
+                             {!! 
+                                Form::textarea(
+                                    'mensaje', 
+                                    "Por mi edad y características, estoy dentro del grupo:".' '.$pregunta1.' '.
+                                    "Mi colchón es para descansar acompañado o sólo:".' '.$pregunta2.' '.
+                                    "Presento algún dolor en columna, huesos, insomnio o alguna enfermedad que me incomode al dormir:".' '.$pregunta3.' '.
+                                    "Mi peso es de:".' '.$pregunta4.' '.
+                                    "Me gusta dormir en un colchón:".' '.$pregunta5.' '.
+                                    "Que tecnología busco en mi colchón:".' '.$pregunta6.' '.
+                                    "Tengo un presupuesto de:".' '.$pregunta7, 
+                                    array(
+                                        'class'=>'form-control'
+                                    )
+                                ) 
+                            !!}
+                        </div>
+
+
+                        
+                        
+                      <div class="form-group">
+                            {!! Form::submit('Enviar') !!}
+                        </div>
+                    
+                    {!! Form::close() !!}
+            </div>
+
+        </div>        </div>
+        <!-- /.row -->
+        
     </div>
     <br><br>
 </body>

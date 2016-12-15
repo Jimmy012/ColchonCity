@@ -12,19 +12,19 @@ class Product extends Model
 	protected $fillable = ['name', 'slug', 'description', 'extract', 'image', 'visible', 'price', 'precioMatri', 'precioQueen', 'precioKing', 'category_id', 'tipo_id'];
 
 
-    // Relation with Category
+    // Relación con Categorias
     public function category()
     {
         return $this->belongsTo('App\Category');
     }
 
-    // Relation with Tipo
+    // Relación con Tipo
     public function tipo()
     {
         return $this->belongsTo('App\Tipo');
     }
 
-    // Relation with OrderItem
+    // Relación con OrderItem
     public function order_item()
     {
         return $this->hasOne('App\OrderItem');

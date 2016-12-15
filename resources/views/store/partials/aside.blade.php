@@ -35,6 +35,6 @@
 	</div>
 </div>
 
-	<div class="acesor">
-        <a href="{{ route('asesor') }}"><img src="/img/mini.jpg" height="60"  width="250" alt=""/></a>
-      </div>  
+<div class="asesor">
+    <a href="{{ route('asesor.index') }}"><img src="/img/mini.jpg" height="60"  width="220" alt=""/></a>
+ </div>  

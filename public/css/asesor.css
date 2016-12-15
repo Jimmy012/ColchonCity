@@ -10,12 +10,12 @@
     }
 
     #wizard a {
-        margin: 0;
-        padding: 0;
-        font-size: 100%;
-        outline: none;
-        text-decoration: none;
         background: transparent;
+        font-size: 100%;
+        margin: 0;
+        outline: none;
+        padding: 0;
+        text-decoration: none;
         vertical-align: baseline;
     }
 

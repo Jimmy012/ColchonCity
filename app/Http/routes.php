@@ -60,7 +60,7 @@ Route::get('tipos/{nombre}', [
 		'uses'	=> 'StoreController@searchTipoProduct',
 		'as'	=> 'store.searchproduct.tipo'
 	]);
-
+Route::POST('cart/actualizar_precio_cantidad','CartController@Actualizar');
 
 Route::get('/', [
 	'as' => 'home',
@@ -102,12 +102,9 @@ Route::get('/asesor', [
 	'uses' => 'AsesorController@asesor'
 ]);
 
-Route::post('/asesor', [
-	'as' => 'asesor',
-	'uses' => 'AsesorController@asesor'
-]);
+Route::resource('asesor', 'AsesorController');
 
-Route::get('/asesordetalle', [
+Route::post('/asesordetalle', [
 	'as' => 'asesordetalle',
 	'uses' => 'AsesordetalleController@asesordetalle'
 ]);
@@ -123,6 +120,7 @@ Route::post('password/reset', 'Auth\PasswordController@postReset');
 Route::resource('mail', 'MailController');
 
 // Carrito -------------
+//Route::resource('cart', 'CartController');
 
 Route::get('cart/show', [
 	'as' => 'cart-show',
@@ -148,6 +146,8 @@ Route::get('cart/update/{product}/{quantity}', [
 	'as' => 'cart-update',
 	'uses' => 'CartController@update'
 ]);
+
+
 
 Route::get('order-detail', [
 	'middleware' => 'auth:user',

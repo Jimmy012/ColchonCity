@@ -62,7 +62,7 @@
                             {!! 
                                 Form::text(
                                     'orden', 
-                                    null, 
+                                    1, 
                                     array(
                                         'class'=>'form-control',
                                         'placeholder' => 'En que orden desean el slider...',
